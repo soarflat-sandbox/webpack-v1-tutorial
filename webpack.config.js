@@ -1,3 +1,6 @@
+// UglifyJsPluginなどのプラグインを利用するためにwebpackを読み込んでおく必要がある。
+var webpack = require('webpack');
+
 module.exports = {
   // エントリーポイントの設定
   entry: './src/js/app.js',
@@ -18,5 +21,15 @@ module.exports = {
       // 利用するローダー
       loader: 'babel-loader?presets[]=es2015'
     }]
-  }
+  },
+  // プラグインの設定
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      // 圧縮に関する設定
+      compress: {
+        // 警告を出力するかどうか
+        warnings: false,
+      }
+    })
+  ]
 };

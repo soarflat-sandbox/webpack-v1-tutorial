@@ -1,4 +1,4 @@
-!function(e){function t(r){if(n[r])return n[r].exports;var i=n[r]={exports:{},id:r,loaded:!1};return e[r].call(i.exports,i,i.exports,t),i.loaded=!0,i.exports}var n={};return t.m=e,t.c=n,t.p="",t(0)}([function(e,t,n){"use strict";function r(e){return e&&e.__esModule?e:{default:e}}var i=n(1),o=r(i),a=n(2),s=r(a),u=n(3),l=r(u),c=400,f=600,p=(0,s.default)(c,f),d=1.08,h=(0,l.default)(p,d);console.log(h),(0,o.default)("body").html(h)},function(e,t,n){var r,i;/*!
+!function(e){function t(r){if(n[r])return n[r].exports;var i=n[r]={exports:{},id:r,loaded:!1};return e[r].call(i.exports,i,i.exports,t),i.loaded=!0,i.exports}var n={};return t.m=e,t.c=n,t.p="",t(0)}([function(e,t,n){(function(e){"use strict";function t(e){return e&&e.__esModule?e:{default:e}}var r=n(2),i=t(r),o=n(3),a=t(o),s=400,u=600,l=(0,i.default)(s,u),c=1.08,f=(0,a.default)(l,c);console.log(f),e("body").html(f)}).call(t,n(1))},function(e,t,n){var r,i;/*!
 	 * jQuery JavaScript Library v3.1.1
 	 * https://jquery.com/
 	 *

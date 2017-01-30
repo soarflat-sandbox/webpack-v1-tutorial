@@ -30,6 +30,9 @@ module.exports = {
         // 警告を出力するかどうか
         warnings: false,
       }
+    }),
+    new webpack.ProvidePlugin({
+      $: 'jquery'
     })
   ]
 };

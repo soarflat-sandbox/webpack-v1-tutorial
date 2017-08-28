@@ -1,4 +1,5 @@
-# webpack-tutorial
+# webpack-v1-tutorial
+webpackのバージョン1系に対応したサンプルコードです。
 
 各ファイルの詳細は以下の記事をご覧ください。
 
@@ -6,10 +7,16 @@
 
 ## 使いかた
 
-以下のコマンドを実行すればバンドルされたファイルが出力されます。
+cloneしたディレクトリ内で以下のコマンドを実行すればバンドルされたファイルが出力されます。
 
 ```sh
 npm install webpack -g
+```
+
+```sh
 npm install
+```
+
+```
 webpack
 ```
